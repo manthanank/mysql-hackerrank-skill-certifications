@@ -1,0 +1,1 @@
+SELECT b.customer_name,cast(a.total_price AS DECIMAL(10,6))amount FROM customer b, invoice a WHERE a.customer_id=b.id AND a.total_price<=(SELECT (0.25*AVG(a.total_price)) FROM invoice a) ORDER BY amount DESC ;
