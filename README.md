@@ -1,1 +1,1 @@
-# mysql-hackerrank-skill-certifications
+# MySql-hackerrank-skill-certifications
